@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  /* border: 1px solid wheat; */
+}
+
+.container {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background: #280031;
+  /* padding: 20px; */
+}
+.header {
+  /* position: absolute; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 10px 330px;
+}
+.header p {
+  font-style: italic;
+  opacity: 0.5;
+}
+.header img {
+  width: 120px;
+  margin-right: 10px;
+}
+.container {
+  position: relative;
+  padding: 25px 330px;
+  display: flex;
+  min-height: 100%;
+  width: 100%;
+}
+
+.left {
+  position: relative;
+  width: 30%;
+  color: #eae8f7;
+  margin-right: 30px;
+}
+.left img {
+  width: 430px;
+}
+.left h3 {
+  margin: 20px 0;
+}
+.left p {
+  margin: 15px 0;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+.left ul {
+  display: flex;
+  list-style: none;
+}
+.left ul li a img {
+  width: 90px;
+}
+.right {
+  margin-left: 60px;
+  position: relative;
+  width: 70%;
+}
+
+.right .card {
+  width: 100%;
+  min-height: 100px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+.top {
+  display: flex;
+  margin-bottom: -15px;
+}
+.top .top-angka {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #fff;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #6142fc;
+  position: relative;
+  top: -25px;
+  left: 15px;
+}
+.top .top-angka h1 {
+  font-size: 1.5em;
+  color: white;
+}
+
+.top .top-text {
+  position: relative;
+  left: 20px;
+  top: -8px;
+  font-size: 1.4em;
+}
+.mid {
+  display: flex;
+}
+.mid input[type="text"] {
+  width: 250px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.281);
+  border-radius: 10px;
+  padding: 25px 30px;
+  color: rgba(0, 0, 0, 0.699);
+  text-align: center;
+}
+.ask {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  left: 10px;
+  top: 13px;
+  font-size: 1em;
+  background: #6142fc;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .desc-id {
+  font-size: 0.7em;
+  opacity: 0.7;
+  font-style: italic;
+  margin: 5px;
+}
+
+.diamond {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.diamonds {
+  width: 235px;
+  height: 55px;
+  border: 1px solid rgba(0, 0, 0, 0.37);
+  padding: 10px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 5px 5px;
+}
+.diamonds span {
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+.payment {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.363);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+.payments {
+  display: flex;
+  flex-direction: column;
+}
+.payments a {
+  font-size: 0.8em;
+  color: blue;
+  text-decoration: underline;
+}
+
+.beli p {
+  font-size: 0.9em;
+}
+.beli input[type="email"] {
+  width: 100%;
+  margin: 10px 0;
+  font-size: 1.4em;
+  padding: 5px 10px;
+}
+.beli input[type="email"]::placeholder {
+  opacity: 0.7;
+}
+
+.beli .bot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.beli label {
+  font-size: 0.8em;
+}
+
+.beli button {
+  width: 300px;
+  height: 40px;
+  background: #6142fc;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 10px 330px;
+}
+.footer h3,
+.footer p {
+  text-align: center;
+  margin: 10px 0;
+}
+.footer p {
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.footer h4 {
+  text-align: center;
+}
+.foot-card {
+  display: flex;
+  justify-content: center;
+}
+.card-footer {
+  width: 350px;
+  height: 550px;
+  background: #eae8f7;
+  margin: 20px 10px;
+  padding: 20px;
+}
+.card-footer h1 {
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.card-footer p {
+  text-align: start;
+}
+.card-footer ol {
+  padding: 10px 40px;
+  font-size: 0.9em;
+}
+.card-footer ol li {
+  margin: 5px 0;
+}
